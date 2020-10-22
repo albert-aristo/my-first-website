@@ -19,16 +19,13 @@ body {
 }
 
 .header-right {
-    padding-top: 15px;
+    padding-top: 35px;
     padding-right: 30px;
     float: right;
 }
 
-.header-right li {
-    font-size: 20px;
-    padding: 0 17px;
-    float: left;
-    list-style: none;
+.header-right a {
+    padding: 0 10px;
 }
 
 .header-right a {
@@ -270,3 +267,4 @@ footer {
     padding: 7px 0;
     text-decoration: none;
 }
+
