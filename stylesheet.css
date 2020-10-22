@@ -270,19 +270,3 @@ footer {
     padding: 7px 0;
     text-decoration: none;
 }
-
-/* untuk table */
-@media all and (max-width: 1000px) {
-    .top-wrapper-isi p {
-        line-height: 25px;
-    }
-
-    .middle {
-        width: 610px;
-    }
-}
-
-/* untuk handphone */
-@media all and (max-width: 670px) {
-
-}
