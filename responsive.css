@@ -1,15 +1,210 @@
 /* untuk table */
-@media all and (max-width: 1000px) {
+@media  (max-width: 1000px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .header-right {
+        position: relative;
+        right: 160px;
+    }
+
+    .header-right a {
+        white-space: normal;
+    }
+    
+    .top-wrapper-isi {
+        text-align: center;
+    }
+
     .top-wrapper-isi p {
+        font-size: 26px;
         line-height: 25px;
     }
 
+    .middle-wrapper {
+        padding-bottom: 300px;
+    }
+
+    .foto {
+        text-align: center;
+        float: right;
+        position: relative;
+        left: 75px;
+        height: 0px;
+    }
+
     .middle {
-        width: 610px;
+        position: relative;
+        right: 22px;
+        float: left;
+        width: 530px;
+    }
+
+    .idfoto {
+        position: relative;
+        bottom: 220px;
+        float: right;
+    }
+
+    .idku {
+        position: relative;
+        right: 20px;
+        font-size: 24px;
+    }
+
+    .contain {
+        padding-bottom: 400px;
+    }
+
+    .heading h2 {
+        position: relative;
+        left: 150px;
+        font-size: 20px;
+    }
+
+    .skill {
+        position: relative;
+        bottom: 60px;
+        width: 100%;
+    }
+
+    .quote {
+        font-size: 25px;
+        line-height: 13px;
+    }
+
+    .warna-quote {
+        height: 500px;
+    }
+
+    .belajar-link h1 {
+        font-size: 28px;
+    }
+
+    .belajar-link stu {
+        line-height: 28px;
+        font-size: 24px;
     }
 }
 
 /* untuk handphone */
-@media all and (max-width: 670px) {
+@media  (max-width: 670px) {
+    .header-right {
+        bottom: 80px;
+        left: 10px;
+    }
 
+    .top-wrapper-isi p {
+        line-height: 35px;
+        margin: 0 auto;
+        width: 90%;
+        font-size: 24px;
+    }
+
+    .middle-wrapper {
+        height: 1200px;
+    }
+
+    .foto {
+        width: 100%;
+        float: right;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .middle {
+        top: 630px;
+        position: relative;
+        width: 100%;
+    }
+
+    .idfoto {
+        width: 100%;
+        bottom: 1030px;
+    }
+
+    .idku {
+        width: 100%;
+    }
+
+    .isi-stu {
+        width: 98%;
+    }
+
+    .heading h2 {
+        left: 0px;
+        bottom: 90px;
+        position: relative;
+        font-size: 18px;
+    }
+
+    .contain {
+        height: 725px;
+    }
+
+    .txt-icon {
+        font-size: 23px;
+    }
+
+    .quote {
+        position: relative;
+        bottom: 30px;
+        line-height: 22px;
+        font-size: 19px;
+    }
+
+    .foto-aku {
+        position: relative;
+        bottom: 30px;
+    }
+
+    .foto-aku p {
+        position: relative;
+        bottom: 40px;
+    }
+
+    .belajar-link {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .belajar-link h1 {
+        line-height: 17px;
+        font-size: 25px;
+    }
+
+    .belajar-link stu {
+        font-size: 21px;        
+    }
+
+    .box-form {
+        width: 90%;
+    }
+
+    .box-form input,textarea {
+        width: 90%;
+    }
+
+    .footer-head {
+        font-size: 17px;
+    }
+    
+    .footer-right {
+        left: 25px;
+        position: relative;
+    }
+
+    .footer-right a {
+        font-size: 14px;
+    }
+
+    .header-right {
+        display: none;
+    }
 }
