@@ -208,3 +208,58 @@
         display: none;
     }
 }
+
+@media (max-width:300px ){
+    .header {
+        height: 60px;
+    }
+
+    .header-left {
+        position: relative;
+        right: 15px;
+        bottom: 5px;
+        font-size: 14px;
+    }
+
+    .top-wrapper {
+        padding-bottom: 0px;
+    }
+
+    .top-wrapper-isi p {
+        position: relative;
+        bottom: 20px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .isi-stu {
+        font-size: 19px;
+        line-height: 22px;
+    }
+    
+    .txt-icon {
+        font-size: 19px;
+    }
+
+    .quote {
+        top: 1px;
+        font-size: 18px;
+    }
+
+    .foto-aku {
+        top: 1px;
+    }
+
+    .belajar-link h1 {
+        line-height: 19px;
+        font-size: 24px;
+    }
+
+    .belajar-link stu {
+        font-size: 20px;
+    }
+
+    .footer-head h1 {
+        font-size: 24px;
+    }
+}
